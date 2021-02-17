@@ -1,88 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
-body{
+body {
     width: 90%;
     margin: 5% auto;
     border: 2px solid rgb(128, 52, 52);
 }
-#corps{
+
+#corps {
     line-height: 20px;
     display: flex;
 }
-header{
-    text-align: center;  
+
+header {
+    text-align: center;
     font-size: 1.2em;
 }
-#identité{
+
+#identité {
     width: 30%;
-    background: linear-gradient(#293f50,#648880);
+    background: linear-gradient(#293f50, #648880);
     margin-left: 1%;
-    
 }
-.gauche{
+
+.gauche {
     color: aliceblue;
     padding: 5%;
 }
-.image{
-    margin:5% 15% 0% 15%;
+
+.image {
+    margin: 5% 15% 0% 15%;
     border: 3px solid aliceblue;
     border-radius: 100%;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 1.3em;
     text-transform: uppercase;
     text-shadow: 0 0 0.5em #0a1014, 0 0 0.5em#090d11;
 }
-h2{
+
+h2 {
     padding-bottom: 10px;
-    border-bottom: 1px solid white; 
+    border-bottom: 1px solid white;
     text-transform: uppercase;
     font-size: 1.1em;
 }
-.outils{
+
+.outils {
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     line-height: 3em;
     margin-top: -15%;
 }
-.drapeau img{
+
+.drapeau img {
     padding: 15px;
 }
-.outils ul li{
+
+.outils ul li {
     list-style-type: none;
 }
-.padding{
-    padding-left: 0%;   
+
+.padding {
+    padding-left: 0%;
 }
-.droit{
+
+.droit {
     width: 60%;
     margin-left: 20px;
     text-align: justify;
 }
-.email{
+
+.email {
     list-style-image: url('///home/malek/T%C3%A9l%C3%A9chargements/email.png');
 }
-.contact{
+
+.contact {
     text-decoration: none;
     color: aliceblue;
     font-size: 15px;
     position: relative;
-    bottom: 15px;   
+    bottom: 15px;
 }
-.tel{
+
+.tel {
     list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/telephone2.png');
 }
-.position{
+
+.position {
     list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/adresse3.png');
 }
-.linkdin{
+
+.linkdin {
     list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/linkedin(1).png');
 }
-.certif{
+
+.certif {
     list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/c(1).png');
 }
-.certif a{
+
+.certif a {
     font-size: 15px;
     position: relative;
     bottom: 20px;
@@ -91,35 +109,39 @@ h2{
     color: aliceblue;
     font-weight: bolder;
 }
-article{
+
+article {
     border-bottom: 1px dashed #293f50;
 }
-.formation{
+
+.formation {
     display: flex;
 }
-.exp-info{
+
+.exp-info {
     display: flex;
     flex-flow: wrap;
     position: relative;
     left: 5%;
 }
 
-footer{
+footer {
     width: 70%;
     margin: auto 20%;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: bisque;
     display: block;
     text-align: center;
     padding: 10px;
     margin: 10px auto 30px auto;
-    background: linear-gradient(#293f50,#648880);
+    background: linear-gradient(#293f50, #648880);
     box-shadow: 0px 0px 10px rgb(57, 83, 95);
     border-radius: 5px;
 }
-#hover:hover{
-    transform: scale(1.1);
 
+#hover:hover {
+    transform: scale(1.1);
 }
