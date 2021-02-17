@@ -72,6 +72,26 @@ h2 {
     text-align: justify;
 }
 
+input[type='checkbox'] {
+    display: none;
+}
+
+.experience-content {
+    overflow: hidden;
+    transition: max-height .55s ease-in;
+    margin-bottom: 20px;
+}
+
+.basculer:checked+.basculement+.experience-content {
+    max-height: 0px;
+    transition: max-height .25s ease-out;
+}
+
+.basculement {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 .email {
     list-style-image: url('///home/malek/T%C3%A9l%C3%A9chargements/email.png');
 }
@@ -112,6 +132,7 @@ h2 {
 
 article {
     border-bottom: 1px dashed #293f50;
+    margin-top: 15px;
 }
 
 .formation {
