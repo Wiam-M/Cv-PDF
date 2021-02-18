@@ -1,0 +1,16 @@
+input[type='checkbox'] {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.experience-content {
+    max-height: 350px;
+    overflow: hidden;
+    transition: max-height .55s ease-in;
+    background-color: rgb(187, 112, 112);
+}
+
+.basculer:checked+.basculement+.experience-content {
+    max-height: 0px;
+    transition: max-height .25s ease-out;
+}

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
     width: 90%;
     margin: 5% auto;
-    border: 2px solid rgb(128, 52, 52);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 #corps {
@@ -46,6 +47,15 @@ h2 {
     font-size: 1.1em;
 }
 
+h3 {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.taille {
+    font-size: 14px;
+}
+
 .outils {
     display: flex;
     justify-content: space-between;
@@ -54,12 +64,19 @@ h2 {
     margin-top: -15%;
 }
 
+.interets {
+    line-height: 35px;
+    margin: 10% 20%;
+    font-size: 17px;
+}
+
 .drapeau img {
     padding: 15px;
 }
 
 .outils ul li {
     list-style-type: none;
+    margin-top: 20px;
 }
 
 .padding {
@@ -88,12 +105,13 @@ input[type='checkbox'] {
 }
 
 .basculement {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
 .email {
-    list-style-image: url('///home/malek/T%C3%A9l%C3%A9chargements/email.png');
+    list-style-image: url('/home/malek/Documents/CV_numérique/logo_photo/email.png');
 }
 
 .contact {
@@ -105,19 +123,19 @@ input[type='checkbox'] {
 }
 
 .tel {
-    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/telephone2.png');
+    list-style-image: url('/home/malek/Documents/CV_numérique/logo_photo/telephone2.png');
 }
 
 .position {
-    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/adresse3.png');
+    list-style-image: url('/home/malek/Documents/CV_numérique/logo_photo/adresse.png');
 }
 
 .linkdin {
-    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/linkedin(1).png');
+    list-style-image: url('/home/malek/Documents/CV_numérique/logo_photo/linkedin.png');
 }
 
 .certif {
-    list-style-image: url('file:///home/malek/T%C3%A9l%C3%A9chargements/c(1).png');
+    list-style-image: url('/home/malek/Documents/CV_numérique/logo_photo/codeD.png');
 }
 
 .certif a {
@@ -144,6 +162,10 @@ article {
     flex-flow: wrap;
     position: relative;
     left: 5%;
+}
+
+.interet {
+    margin-left: 30%;
 }
 
 footer {
